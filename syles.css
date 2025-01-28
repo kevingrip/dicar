@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(12, 12, 87);
+    background-color:rgb(8, 8, 60);
     background-image: url(img/image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body{
 
   @media screen and (max-width: 991px) {
     .icono {
-      max-width: 300px;
+      width: 40vw;
     }
     body{
       background-color: rgb(8, 8, 60);
@@ -180,9 +180,56 @@ body{
       text-align: center;
       margin: 0;
     }
+
+    .boxSize{
+      margin-left: 0;
+      margin-top: 10vh;
+    }
+
+    h7{
+      font-size: 7vw;
+    }
+    .mobileCenter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 10vw;
+      width: 80vw;
+    }
+
     nav{
       margin: 0;
       padding: 0;
+    }
+
+    .map{
+      display: flex;
+      justify-content: center;
+    }
+
+    .articleContact{
+      flex-direction: column;
+    }
+
+    .contactMargin{
+      margin: 5vh;
+    }
+    .contactBox{
+      display: flex;
+      align-items: center;
+      height: 7h;
+      background-color: rgba(0, 0, 0, 0.089);
+    }
+
+    .iconWP{
+      width: 7vw;
     }
 
   }
