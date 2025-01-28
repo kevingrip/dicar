@@ -8,9 +8,6 @@ body{
     overflow: hidden;
 }
 
-header{
-  background-color: rgba(0, 0, 0, 0.288);
-}
 
 .icono {
     width: 14vw;
@@ -161,7 +158,10 @@ header{
       height: auto;
       overflow-y: auto;
     }
-
+      
+    header{
+      background-color: rgba(0, 0, 0, 0.288);
+    }
 
     .navButton ul {
       align-items: center;
