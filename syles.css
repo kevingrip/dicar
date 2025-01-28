@@ -1,14 +1,16 @@
 body{
-    background-image: url(img/background.png);
+    background-color:rgb(12, 12, 87);
+    background-image: url(img/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    height: 100%;
+    height: 99vh;
+    overflow: hidden;
 }
 
 .icono {
-    width: 220px;
-    margin-right: 100px;
+    width: 14vw;
+    margin-right: 10vh;
   }
 
 .navbar-brand{
@@ -30,12 +32,12 @@ body{
     padding: 0; /* Elimina el padding predeterminado del ul */
     margin: 0; /* Elimina el margen predeterminado del ul */
     list-style: none; /* Elimina los puntos de la lista */
-    min-width: 600px;
+    min-width: 80vh;
     justify-content: space-between;
   }
   
   .navButton li {
-    margin-right: 15px; /* Espacio entre los elementos de la lista */
+    margin-right: 3vw; /* Espacio entre los elementos de la lista */
   }
   
   .navButton a {
@@ -53,7 +55,7 @@ body{
   }
 
   .nav-link.active{
-    color: tomato !important;
+    color: lightseagreen !important;
   }
   
   
@@ -62,49 +64,41 @@ body{
   h1{
     color: white;
     width: 45%;
-    margin: 50px;
-    padding-top: 30px;
+    margin: 4vw;
+    padding-top: 3vh;
   }
 
   h3{
     color: white;
-    margin-left: 50px;
+    margin-left: 4vw;
+    font-size: 4vh;
   }
 
   h4{
     color: white;
-    margin-left: 50px;
-    width: 60%;
+    font-size: 3.6vh;
   }
 
   .text{
-    width: 45%;
-    margin-bottom: 20px;
+    width: 90vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 
-  h7{
-    color: white;
-    font-size: 52px;
-  }
 
-  .iconFB{
-    height: 50px;
-    width: 50px;
-  }
+
   .iconWP{
-    height: 30px;
-    width: 30px;
+    height: 5vh;
+    width: 3vw;
   }
 
   .articleContact{
     display: flex;
     flex-direction: row;
-    margin: 50px;
   }
 
   .contactMargin{
-    margin: 10px 20px 50px 40px;
-    min-width: 200px;
+    margin: 5vh 10vh 10vh 0vh;
   }
 
   span{
@@ -114,7 +108,6 @@ body{
   .contactBox{
     display: flex;
     flex-direction: column;
-    width: 150px;
     text-decoration: none;
     transition: transform 0.3s ease;
   }
@@ -128,9 +121,8 @@ body{
   }
 
   .boxSize{
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-left: 9vh;
+    margin-top: 4vh;
   }
 
   .fira {
@@ -144,21 +136,14 @@ body{
     font-weight: 200;    
   }
 
-  .map{
-    margin-left: 50px;
-  }
 
   h7 {
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color:white;
-    text-shadow: 
-        1.5px 0 red,  /* Sombra derecha */
-       -1.5px 0 red,  /* Sombra izquierda */
-        0 1.5px red,  /* Sombra abajo */
-        0 -1.5px red; /* Sombra arriba */
+    color:lightseagreen;
+    font-size: 4.1vw;
   }
 
 
