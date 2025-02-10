@@ -9,6 +9,30 @@ body{
     overflow: hidden;
 }
 
+.content {
+  padding-bottom: 50px; /* Asegura que el contenido no quede debajo del footer */
+}
+
+footer {
+  background-color: rgb(8, 8, 60);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.816);
+  font-size: 14px;
+  margin: 0; /* Elimina márgenes adicionales */
+}
+
 .icono {
     width: 14vw;
     margin-right: 10vh;
@@ -77,8 +101,10 @@ body{
 
   h4{
     color: white;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
   }
+
+ 
 
   .text{
     width: 90vh;
@@ -87,17 +113,25 @@ body{
   }
 
   .iconWP{
-    height: 5vh;
-    width: 3vw;
+    height: 4.5vh;
+    width: 2.5vw;
   }
 
-  .articleContact{
+  .articleContact {
+    margin: 2vw;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando excedan el ancho disponible */
+    width: 50%; /* Ajusta el contenedor a un 100% del ancho disponible (puedes cambiarlo según sea necesario) */
+  }
+  
+  .articleContact > div {
+    flex: 1 1 40%; /* Hace que cada div ocupe hasta el 40% del ancho del contenedor */
+    padding: 10px; /* Agrega un poco de espacio interno */
+    margin: 15px; /* Espacio entre los elementos */
   }
 
   .contactMargin{
-    margin: 5vh 10vh 10vh 0vh;
+    margin: 5vh 10vh 10vh 7.5vh;
   }
 
   span{
@@ -120,7 +154,7 @@ body{
   }
 
   .boxSize{
-    margin-left: 9vh;
+    margin-left: 10vh;
     margin-top: 4vh;
   }
 
@@ -143,6 +177,10 @@ body{
     font-style: normal;
     color:lightseagreen;
     font-size: 4.1vw;
+  }
+
+  .widthubi{
+    width: 35%;
   }
 
 
@@ -196,7 +234,7 @@ body{
       font-size: 8vw;
     }
     h4{
-      font-size: 5vw;
+      font-size: 4vw;
     }
     .mobileCenter{
       display: flex;
@@ -225,16 +263,18 @@ body{
 
     .articleContact{
       flex-direction: column;
+      width: 100%;
     }
 
     .contactMargin{
-      margin: 5vh;
+      margin: 5vw;
     }
     .contactBox{
       display: flex;
       align-items: center;
-      height: 7h;
+      height: 14vw;
       background-color: rgba(0, 0, 0, 0.089);
+      
     }
 
     .iconWP{
